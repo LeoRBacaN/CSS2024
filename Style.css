@@ -1,0 +1,22 @@
+h1 {
+    Background-color: rgb(117, 37, 37);
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: rgb(130, 0, 0);
+}
+
+div {
+    width: 100%;
+    max-width: 200px;
+    height: 100vw;
+    background-color: rgba(128, 128, 128, 0.4);
+    border: 3px solid black;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: rgb(104, 0, 0);
+    font-size: 12px;
+    Font-weight: 600;
+    font-family: "Roboto", sans-serif;  
+}
