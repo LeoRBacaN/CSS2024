@@ -1,0 +1,57 @@
+div {
+    background-color: darkred;
+    color: white;
+    font-size: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: background-color 100ms;
+}
+
+@media (max-width: 1200px) {
+    div {
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 992px) {
+    div {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    div {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    div {
+        font-size: 16px;
+    }
+}
+
+
+div:hover {
+    background-color: rgb(2, 137, 255, 0.5);
+}
+
+button {
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 100ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}  
